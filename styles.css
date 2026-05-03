@@ -121,6 +121,7 @@ button:hover {
 }
 
 .collapsible {
+    padding-inline: 1rem;
     overflow: hidden;
     max-height: 0;
     transition: max-height 0.4s ease-out;
