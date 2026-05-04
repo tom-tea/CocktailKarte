@@ -16,13 +16,16 @@ body {
 h1 {
     font-family: 'Playfair Display', serif;
     text-align: center;
-    background: #000000; /* Darker background */
-    text-shadow: white 0px 0px 5px;
-    color: #ffffff;
+    background: linear-gradient(45deg, #a03aff, #4df3ff);
+
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    color: transparent;
     padding: 2.5rem;
     margin: 0;
     font-size: 2.5rem;
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.8);
 }
 
 h2 {
