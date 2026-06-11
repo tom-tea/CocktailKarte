@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    // Add star icons to recommended drinks
+
     // Highlight recommended drinks
     const recommendations = ['Mojito', 'Cuba Libre', 'Pisco Sour', 'Piña Colada'];
     recommendations.forEach(drink => {
