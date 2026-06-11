@@ -173,3 +173,11 @@ button:hover {
     color: #ffcc00;
     margin-left: 0.5rem;
 }
+
+#signature {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-family: 'Roboto', sans-serif;
+    color: #374866;
+}
